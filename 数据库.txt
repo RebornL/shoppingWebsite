@@ -1,0 +1,30 @@
+数据库设计
+前台
+    网站首页 注册登录 商品列表 商品详情 购物车 下单支付 个人支付
+
+后台
+    商品管理 订单管理 安全权限 地区管理 商家管理
+
+表设计
+前台
+    deal n:1 deal_category
+         1:n area
+         1:1 deal_detail
+         n:1 cart
+
+    order_detail n:1 order_basic
+                 1:n deal
+                 n:1 user
+
+    user 1:n cart
+         1:n address
+         1:n message
+         1:n favorite
+         1:1 user_basic_info
+
+后台
+    admin_user
+    admin_user_role
+    admin_role
+    admin_role_function
+    admin_function    

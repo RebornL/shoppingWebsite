@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Groupon" target="1.5" />
+      <module name="groupon (1)" target="1.5" />
+      <module name="groupon (2)" target="1.5" />
+      <module name="groupon-admin" target="1.5" />
+      <module name="groupon-alipay" target="1.5" />
+      <module name="groupon-image-server" target="1.5" />
+      <module name="groupon-service" target="1.5" />
+      <module name="groupon-site" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
